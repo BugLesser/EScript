@@ -1,0 +1,32 @@
+package cc.decat.EScript.AST;
+
+public enum ASTNodeType {
+	From,
+	Import,
+	If,
+	Else,
+	For,
+	While,
+	Continue,
+	Break,
+	Class,
+	Method,
+	Function,
+	Main,
+	Var,
+	Return,
+	Number,
+	String,
+	Symbol,
+	CallFunction,
+	ConstValue,
+	Function_Param,
+	StmtList,
+	Expr, 
+	Binary_Op,
+	Assign,
+	ConditionExpr,
+	Compare,
+	DefVar,
+	Logical_Op, Logical
+}
